@@ -21,7 +21,7 @@ public class TruckSpawn : MonoBehaviour
         {
             timer = timer + Time.deltaTime;
         }
-        else 
+        else
         {
             spawnTruck();
             timer = 0;
